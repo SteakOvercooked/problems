@@ -1,6 +1,6 @@
 import { ListNode } from '@task-types/listNode';
 
-export default function solution(lists: Array<ListNode | null>): ListNode | null {
+export default function mergeKLists(lists: Array<ListNode | null>): ListNode | null {
   let prevNode: ListNode | null = null;
   let head: ListNode | null = null;
 

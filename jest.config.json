@@ -1,0 +1,8 @@
+{
+  "preset": "ts-jest",
+  "moduleNameMapper": {
+    "@solutions/(.*)": "<rootDir>/solutions/$1",
+    "@jest-rules/(.*)": "<rootDir>/jest-rules/$1",
+    "@task-types/(.*)": "<rootDir>/task-types/$1"
+  }
+}

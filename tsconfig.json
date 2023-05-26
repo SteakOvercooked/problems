@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "noEmit": true,
+    "module": "CommonJS",
+    "downlevelIteration": true,
+    "baseUrl": ".",
+    "paths": {
+      "@solutions/*": ["solutions/*"],
+      "@jest-rules/*": ["jest-rules/*"],
+      "@task-types/*": ["task-types/*"]
+    }
+  },
+}

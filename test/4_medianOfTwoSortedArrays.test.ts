@@ -1,6 +1,6 @@
 import solution from '@solutions/4_medianOfTwoSortedArrays';
 
-describe('Correctness of palindromes', () => {
+describe('Correctness of median search', () => {
   test('[1, 3] and [2]', () => {
     expect(solution([1, 3], [2])).toBe(2);
   });
@@ -9,15 +9,11 @@ describe('Correctness of palindromes', () => {
     expect(solution([1, 2], [3, 4])).toBeCloseTo(2.5);
   });
 
-  // test('abb', () => {
-  //   expect(solution('school')).toBe('oo');
-  // });
+  test('[-9, -5, 5, 6] and []', () => {
+    expect(solution([-9, -5, 5, 6], [])).toBe(0);
+  });
 
-  // test('refer', () => {
-  //   expect(solution('refer')).toBe('refer');
-  // });
-
-  // test('jgjfowqqqwgradarloop', () => {
-  //   expect(solution('jgjfowqqqwgradarloop')).toBe('radar');
-  // });
+  test('[1, 2, 3, 4] and [-1, 2, 6, 104]', () => {
+    expect(solution([1, 2, 3, 4], [-1, 2, 6, 104])).toBe(2.5);
+  });
 });
